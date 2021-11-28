@@ -378,11 +378,13 @@ body {}
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 500px;
 
 }
 
 .formulario form {
-  width: 500px;
+  width: 100%;
+  padding: 10px;
 }
 
 .formulario button {

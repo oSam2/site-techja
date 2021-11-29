@@ -375,11 +375,19 @@ body {font-family: 'Poppins', sans-serif;}
   font-weight: bold;
 }
 
+.servicos h2 {
+  font-size: 10pt;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 2px;
+  margin-bottom: 14px;
+}
+
 .servicos li {
   font-size: 11pt;
   text-align: justify;
   font-weight: 500;
-  margin-left: 10px;
+  margin: 8px;
   margin-bottom: 2px;
 
 }
@@ -393,7 +401,7 @@ body {font-family: 'Poppins', sans-serif;}
   border: 1px solid #d2d2d7;
   margin: 16px;
   border-radius: 10px;
-  min-height: 500px;
+  min-height: 557.95px;
   background: #fff;
   transition: 0.3s ease-in-out;
 

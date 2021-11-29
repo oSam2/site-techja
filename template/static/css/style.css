@@ -611,7 +611,25 @@ footer {
   margin: 5px;
 }
 
+.banner{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: center;
+ 
 
+}
+.banner img {
+  max-width: 34%;
+  padding: 10px;
+}
+
+
+@media (max-width:768px) {
+  .banner img  {
+    max-width: 70%;
+  }
 
 
 .wrapper::before {

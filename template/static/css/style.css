@@ -622,7 +622,7 @@ footer {
 
 }
 .banner img {
-  max-width: 34%;
+  max-width: 42%;
   padding: 10px;
 }
 
@@ -632,9 +632,9 @@ footer {
     max-width: 37%;
   }
 }
-@media (max-width:991px) {
+@media (max-width:1285px) {
   .banner img {
-    max-width: 95%;
+    max-width: 48%;
 }
 }
 @media (max-width:768px) {

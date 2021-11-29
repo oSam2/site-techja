@@ -20,6 +20,7 @@ body {font-family: 'Poppins', sans-serif;}
   padding-right: 16px;
   border-bottom: 1px solid #d6d6d6;
   box-shadow: 0 0 4px rgba(0, 0, 0, .1);
+  margin-bottom: 8px !important;
 }
 
 .nav img {
@@ -626,11 +627,21 @@ footer {
 }
 
 
+@media (max-width:1366px) {
+  .banner img  {
+    max-width: 37%;
+  }
+}
+@media (max-width:991px) {
+  .banner img {
+    max-width: 95%;
+}
+}
 @media (max-width:768px) {
   .banner img  {
     max-width: 95%;
   }
-
+}
 
 .wrapper::before {
   content: "::before element";

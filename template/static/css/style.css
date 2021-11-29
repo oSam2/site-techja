@@ -241,20 +241,29 @@ body {}
 }
 
 .produto-loja {
-  width: 300px;
+  width: 250px;
 
-  padding: 20px;
+  padding: 5px;
 }
 
 .prod-corpo {
   margin: 10px;
-  border: #ececec solid 4px;
+
   text-align: center;
+  background: #ebebeb;
+  transition: 0.3s ease-in-out;
+
+}
+
+
+.prod-corpo:hover {
+  transition: 0.3s ease-in-out;
+  transform: scale(1.04);
 }
 
 .produto-loja img {
   width: 100%;
-  padding: 5px;
+  padding: 10px;
 }
 
 
@@ -328,6 +337,11 @@ body {}
 
 }
 
+
+.botao-produto .bi-cart {
+  margin-right: 4px;
+  font-size: 14pt;
+}
 /* Serviço */
 
 .container-info {

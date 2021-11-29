@@ -278,9 +278,9 @@ body {font-family: 'Poppins', sans-serif;}
 
 @media (max-width: 1000px) {
   .produto-titulo {
-      font-size: 15pt;
+      font-size: 14pt;
       width: 100%;
-      padding-left: 106px;
+      padding-left: 44px;
   }
 }
 

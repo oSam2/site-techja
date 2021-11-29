@@ -38,6 +38,11 @@
         <li><a href="servicos.html">Serviços</a></li>
 
         <li><a href="contato.html">Contato</a></li>
+
+              <ul class="dropdown-menu">
+            <li><a href="#"><i class="fa fa-user-o"></i> Conta</a></li>
+            <li><a href="#"><i class="fa fa-sliders"></i> Configurações</a></li>
+            <li class="divider"></li>
       </ul>
       <form class="navbar-form form-inline">
         <div class="input-group search-box">

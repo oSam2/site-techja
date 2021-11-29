@@ -320,6 +320,12 @@ body {}
 
 }
 
+.botao-produto {
+  text-align: center;
+  padding: 1em;
+
+}
+
 /* Serviço */
 
 .container-info {

@@ -250,8 +250,9 @@ body {}
   margin: 10px;
 
   text-align: center;
-  background: #ebebeb;
+
   transition: 0.3s ease-in-out;
+  border: 1px solid #c4c4c469;
 
 }
 

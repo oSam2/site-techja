@@ -296,7 +296,7 @@ body {font-family: 'Poppins', sans-serif;}
   color: rgb(66, 70, 77);
 
   text-align: center;
-  border: 1px solid #c4c4c47e;
+  border: 1px solid #c4c4c459;
   border-radius: 10px;
   background: #fdfdfd;
   box-sizing: border-box;
@@ -305,7 +305,7 @@ body {font-family: 'Poppins', sans-serif;}
 
 .prod-corpo:hover {
   transition: 100ms;
-  box-shadow: 0 0 1.5px #000000;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .produto-loja img {
@@ -552,7 +552,7 @@ footer {
   text-align: center;
   background: #f4f4f4;
   font-size: 1em;
-  padding-bottom: 2rem;
+
 }
 
 
@@ -589,7 +589,7 @@ footer {
 }
 
 .contato {
-  padding: 1rem;
+  padding: 0rem;
 }
 
 
@@ -598,6 +598,9 @@ footer {
   background: #232323;
   color: #fff;
   font-weight: 100;
+  margin: 0;
+  padding-bottom: 0.5em;
+
 }
 
 .redes {

@@ -15,7 +15,8 @@ body {font-family: 'Poppins', sans-serif;}
 }
 
 .navbar {
-  background: #fff;
+  background: #f4f4f4 !important;
+  /* background: #fff; */
   padding-left: 16px;
   padding-right: 16px;
   border-bottom: 1px solid #d6d6d6;
@@ -257,32 +258,43 @@ body {font-family: 'Poppins', sans-serif;}
 
 .boxes {}
 
-.produto-titulo {
+/* .produto-titulo {
   text-align: left;
-  padding: 15px;
+  padding-top: 10px;
   margin: 0;
-  font-size: 16pt;
+  font-size: 12pt;
   width: 100%;
 
   padding-left: 110px;
   
 }
 
+.produto-titulo p { margin: 0 !important;}
+
 @media (max-width:1366px) {
   .produto-titulo {
-    font-size: 14pt;
+    font-size: 12pt;
     width: 100%;
-    padding-left: 34px;
+    padding-left: 55px;
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width:940px) {
   .produto-titulo {
-      font-size: 14pt;
-      width: 100%;
-      padding-left: 44px;
+    font-size: 12pt;
+    width: 100%;
+    padding-left: 55px;
   }
 }
+
+
+@media (max-width: 768px) {
+  .produto-titulo {
+      font-size: 12pt;
+      width: 100%;
+      padding-left: 116px;
+  }
+} */
 
   /* .produto-titulo {
     font-size: 16pt;
@@ -291,10 +303,9 @@ body {font-family: 'Poppins', sans-serif;}
   }
 } */
 
-.produto-titulo p {
-
+.lista-pc {
+  padding-top: 15px;
 }
-
 
 
 .container-produtos {

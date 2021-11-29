@@ -552,6 +552,7 @@ footer {
   text-align: center;
   background: #f4f4f4;
   font-size: 1em;
+  bottom : 0;
 
 }
 
@@ -600,7 +601,6 @@ footer {
   font-weight: 100;
   margin: 0;
   padding-bottom: 0.5em;
-
 }
 
 .redes {

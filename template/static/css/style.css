@@ -230,7 +230,6 @@ body {font-family: 'Poppins', sans-serif;}
 
 /* Div dos produtos */
 
-
 .boxes {}
 
 .produto-titulo {
@@ -254,11 +253,10 @@ body {font-family: 'Poppins', sans-serif;}
 }
 
 .produto-loja {
-  width: 230px;
+  width: 250px;
 
   padding: 5px;
 }
-
 @media (max-width: 600px)
 
 {
@@ -268,6 +266,7 @@ body {font-family: 'Poppins', sans-serif;}
     padding: 5px;
   }
 }
+
 .prod-corpo {
   margin: 10px;
   color: rgb(66, 70, 77);
@@ -293,7 +292,9 @@ body {font-family: 'Poppins', sans-serif;}
 /* fim */
 
 .corpo {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding-bottom: 5em;
 }
 
@@ -581,6 +582,8 @@ footer {
 .redes svg {
   margin: 5px;
 }
+
+
 
 
 .wrapper::before {

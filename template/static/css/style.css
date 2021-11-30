@@ -507,14 +507,22 @@ body {font-family: 'Poppins', sans-serif;}
   display: flex;
   flex-direction: column;
   justify-content: center;
+  /* width: 300
+px
+; */
+  flex-wrap: wrap;
   align-items: center;
-  width: 500px;
+  padding: 15px;
 
 }
 
 .formulario form {
-  width: 100%;
-  padding: 10px;
+ 
+  width: 250px;
+  height: 450px;
+  margin: auto;
+  position: relative;
+ 
 }
 
 .formulario button {
@@ -693,6 +701,50 @@ footer {
     max-width: 95%;
   }
 }
+
+.perfis  {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.perfis .perfil-container {
+  /* background: #2864b5; */
+  padding: 15px;
+  margin: 10px;
+
+}
+
+.perfis .perfil-container h2 {
+  font-size: 14pt;
+  font-weight: 800;
+}
+
+.perfis .avatar {
+  border-radius: 40px;
+  padding: 5px;
+  width: 120px;
+  
+}
+
+.perfis .avatar img{
+  width: 100%;
+  padding: ;
+  border-radius: 70px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.perfis .detalhes{
+  text-align: center;
+  font-weight: 600;
+  
+}
+
+
 
 .wrapper::before {
   content: "::before element";

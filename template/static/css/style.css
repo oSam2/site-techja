@@ -465,8 +465,8 @@ body {font-family: 'Poppins', sans-serif;}
 }
 
 .container-info .imgBx {
-  max-width: 200px;
-  flex: 0 0 200px;
+  max-width: 250px;
+  flex: 0 0 250px;
 }
 
 .container-info .imgBx img {
@@ -474,7 +474,8 @@ body {font-family: 'Poppins', sans-serif;}
 }
 
 .container-info .card .content {
-  margin-left: 20px;
+  /* margin-left: 20px; */
+  margin: 17px;
 }
 
 .container-info .card .content h2 {

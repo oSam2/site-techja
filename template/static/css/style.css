@@ -408,11 +408,13 @@ body {font-family: 'Poppins', sans-serif;}
 }
 
 .servico-container {
-  width: 250px;
+  /* width: 250px; */
+  width: 260px;
   border: 1px solid #d2d2d7;
   margin: 16px;
   border-radius: 10px;
-  min-height: 557.95px;
+  /* min-height: 557.95px; */
+  min-height: 567.95px;
   background: #fff;
   transition: 0.3s ease-in-out;
 

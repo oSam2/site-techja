@@ -455,7 +455,7 @@ body {font-family: 'Poppins', sans-serif;}
 
 .container-info .card {
   position: relative;
-  max-width: 650px;
+  max-width: 700px;
   background: #fff;
   margin: 10px;
   padding: 15px;
@@ -463,8 +463,8 @@ body {font-family: 'Poppins', sans-serif;}
 }
 
 .container-info .imgBx {
-  max-width: 150px;
-  flex: 0 0 150px;
+  max-width: 200px;
+  flex: 0 0 200px;
 }
 
 .container-info .imgBx img {
@@ -474,6 +474,12 @@ body {font-family: 'Poppins', sans-serif;}
 .container-info .card .content {
   margin-left: 20px;
 }
+
+.container-info .card .content h2 {
+  font-weight: 600;
+  font-size: 24pt;
+}
+
 
 @media (max-width:991px) {
   .container-info {
@@ -702,6 +708,46 @@ footer {
   }
 }
 
+/* Sobre ini */
+.sobre-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: nowrap;
+
+}
+
+.sobre-container img {
+  width: 100%;
+}
+
+
+.sobre-container .sobre{
+  width: 380px;
+  padding: 1em;
+  margin: 1px;
+}
+
+.sobre-container .img-container {
+
+}
+
+.sobre-container .sobre .texto {
+  padding: 10px;
+}
+
+.titulo-equipe {
+  text-align: center;
+  
+}
+
+.titulo-equipe  h1 {
+  font-size: 20pt;
+  font-weight: 600;
+}
+
 .perfis  {
   display: flex;
   align-items: center;
@@ -744,7 +790,7 @@ footer {
   
 }
 
-
+/* Sobre fim */
 
 .wrapper::before {
   content: "::before element";

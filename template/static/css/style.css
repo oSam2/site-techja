@@ -4,11 +4,6 @@
   font-family: 'Poppins', sans-serif;
 }
 
-
-
-
-body {font-family: 'Poppins', sans-serif;}
-
 /* Navbar */
 .form-inline {
   display: inline-block;
@@ -48,8 +43,6 @@ body {font-family: 'Poppins', sans-serif;}
 
 }
 
-
-
 .search-box {
   position: relative;
 }
@@ -73,7 +66,7 @@ body {font-family: 'Poppins', sans-serif;}
 
 .search-box i {
   color: #a0a5b1;
-  font-size: 19px;
+  font-size: 14px;
 }
 
 .navbar ul li i {
@@ -166,9 +159,6 @@ body {font-family: 'Poppins', sans-serif;}
   }
 }
 
-/*  */
-
-
 .card-img {
   max-width: 100%;
   height: auto;
@@ -193,17 +183,8 @@ body {font-family: 'Poppins', sans-serif;}
   font-size: 18pt;
 }
 
-/* 
-.boxes {
-  width: 800px;
-  left: 0px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
 
-} */
-
-.prod-corpo b{
+.prod-corpo b {
   font-size: 10pt;
   line-height: 2rem;
   font-weight: 600;
@@ -224,12 +205,12 @@ body {font-family: 'Poppins', sans-serif;}
 }
 
 .descricao .precoAntigo span {
-      font-size: 12px;
-      color: #bababa;
-      display: inline-block;
-      vertical-align: baseline;
-      text-decoration: line-through;
-  
+  font-size: 12px;
+  color: #bababa;
+  display: inline-block;
+  vertical-align: baseline;
+  text-decoration: line-through;
+
 }
 
 .novoPreco {
@@ -246,62 +227,11 @@ body {font-family: 'Poppins', sans-serif;}
 
 .produto-img {
   width: auto;
-  
 }
 
 .wave {
   z-index: 2;
 }
-
-
-/* Div dos produtos */
-
-.boxes {}
-
-/* .produto-titulo {
-  text-align: left;
-  padding-top: 10px;
-  margin: 0;
-  font-size: 12pt;
-  width: 100%;
-
-  padding-left: 110px;
-  
-}
-
-.produto-titulo p { margin: 0 !important;}
-
-@media (max-width:1366px) {
-  .produto-titulo {
-    font-size: 12pt;
-    width: 100%;
-    padding-left: 55px;
-  }
-}
-
-@media (max-width:940px) {
-  .produto-titulo {
-    font-size: 12pt;
-    width: 100%;
-    padding-left: 55px;
-  }
-}
-
-
-@media (max-width: 768px) {
-  .produto-titulo {
-      font-size: 12pt;
-      width: 100%;
-      padding-left: 116px;
-  }
-} */
-
-  /* .produto-titulo {
-    font-size: 16pt;
-    width: 100%;
-    padding-left: 60px;
-  }
-} */
 
 .lista-pc {
   padding-top: 15px;
@@ -325,12 +255,11 @@ body {font-family: 'Poppins', sans-serif;}
 
   padding: 5px;
 }
-@media (max-width: 600px)
 
-{
+@media (max-width: 600px) {
   .produto-loja {
     width: 290px;
-  
+
     padding: 5px;
   }
 }
@@ -344,12 +273,13 @@ body {font-family: 'Poppins', sans-serif;}
   border-radius: 10px;
   background: #fdfdfd;
   box-sizing: border-box;
-}
 
+}
 
 .prod-corpo:hover {
   transition: 100ms;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
 }
 
 .produto-loja img {
@@ -444,6 +374,7 @@ body {font-family: 'Poppins', sans-serif;}
   margin-right: 4px;
   font-size: 12pt;
 }
+
 /* Serviço */
 
 .container-info {
@@ -512,14 +443,10 @@ body {font-family: 'Poppins', sans-serif;}
 
 }
 
-
 .formulario {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* width: 300
-px
-; */
   flex-wrap: wrap;
   align-items: center;
   padding: 15px;
@@ -527,74 +454,17 @@ px
 }
 
 .formulario form {
- 
+
   width: 250px;
   height: 450px;
   margin: auto;
   position: relative;
- 
+
 }
 
 .formulario button {
   text-align: center;
 }
-
-/* .servicos {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-.servicos h1 {
-  text-align: center;
-}
-.loja-fisica,
-.suporte,
-.assinatura {
-  margin-left: 10px;
-  text-align: justify;
-  margin-top: 90px;
-  min-width: 750px;
-}
-
-.loja-fisica,
-.suporte,
-.assinatura p {
-font-weight: 500;
-
-}
-
-
-
-.loja-fisica {
-  padding-top: 0px;
-  /* background: #999; */
-
-/* } */
-
-/* @media (max-width: 480px) {
-
-  .servicos-img
-   {
-    width: 200px;
-   }
-} 
- */
-
-
-
-/* .servicos-img {
-  max-width: 100%;
-  height: auto;
-  /* width: 450px;
-  min-width: none; */
-/* float: right;
-  margin-left: 20px; */
-
-/* }  */
-
-
-
-
 
 .sobre {
   color: #56617e;
@@ -622,13 +492,12 @@ footer {
   text-align: center;
   background: #f4f4f4;
   font-size: 1em;
-  bottom : 0;
+  bottom: 0;
   width: 100%;
-  
+
 
 
 }
-
 
 .wpp {
   position: fixed;
@@ -684,15 +553,16 @@ footer {
   margin: 5px;
 }
 
-.banner{
+.banner {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-content: space-between;
   justify-content: center;
- 
+
 
 }
+
 .banner img {
   max-width: 42%;
   padding: 10px;
@@ -700,17 +570,19 @@ footer {
 
 
 @media (max-width:1366px) {
-  .banner img  {
+  .banner img {
     max-width: 37%;
   }
 }
+
 @media (max-width:1285px) {
   .banner img {
     max-width: 48%;
+  }
 }
-}
+
 @media (max-width:768px) {
-  .banner img  {
+  .banner img {
     max-width: 95%;
   }
 }
@@ -731,14 +603,10 @@ footer {
 }
 
 
-.sobre-container .sobre{
+.sobre-container .sobre {
   width: 380px;
   padding: 1em;
   margin: 1px;
-}
-
-.sobre-container .img-container {
-
 }
 
 .sobre-container .sobre .texto {
@@ -747,15 +615,15 @@ footer {
 
 .titulo-equipe {
   text-align: center;
-  
+
 }
 
-.titulo-equipe  h1 {
+.titulo-equipe h1 {
   font-size: 20pt;
   font-weight: 600;
 }
 
-.perfis  {
+.perfis {
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -768,7 +636,6 @@ footer {
   /* background: #2864b5; */
   padding: 15px;
   margin: 10px;
-
 }
 
 .perfis .perfil-container h2 {
@@ -780,10 +647,10 @@ footer {
   border-radius: 40px;
   padding: 5px;
   width: 120px;
-  
+
 }
 
-.perfis .avatar img{
+.perfis .avatar img {
   width: 100%;
   padding: ;
   border-radius: 70px;
@@ -791,13 +658,11 @@ footer {
 
 }
 
-.perfis .detalhes{
+.perfis .detalhes {
   text-align: center;
   font-weight: 600;
-  
-}
 
-/* Sobre fim */
+}
 
 .wrapper::before {
   content: "::before element";
